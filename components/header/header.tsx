@@ -13,17 +13,18 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import Image from "next/image"
 import Link from "next/link"
 
 export function Headerr() {
   return (
-    <header>
-      <nav className="flex justify-between items-center p-5">
-        <h1>Nicosignn</h1>
+    <header className="bg-white fixed w-full">
+      <nav className="flex justify-between items-center p-1.5">
+        <Image src="/nico.svg" alt="Logo do site" width={90} height={50}/>
         <div className="md:hidden">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="outline" className="w-10 h-10">
+              <Button variant="outline" className="w-10 h-10 bg-purple-950 hover:bg-purple-500">
                 <div className="flex flex-col gap-0.5">
                   <div className="h-0.5 w-3 bg-white"></div>
                   <div className="h-0.5 w-3 bg-white"></div>
@@ -31,12 +32,12 @@ export function Headerr() {
                 </div>
               </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-50 relative right-5 top-3" align="start">
+            <DropdownMenuContent className="w-50 relative right-5 top-3 bg-purple-950 p-4" align="start">
               <DropdownMenuGroup>
-                <DropdownMenuLabel>Menu principal</DropdownMenuLabel>
-                <DropdownMenuItem>Início</DropdownMenuItem>
-                <DropdownMenuItem>Saiba mais</DropdownMenuItem>
-                <DropdownMenuItem>Contato</DropdownMenuItem>
+                <DropdownMenuLabel className="text-gray-300 text-center">Menu principal</DropdownMenuLabel>
+                <DropdownMenuItem className="text-white font-[poppins] text-[13px]">Início</DropdownMenuItem>
+                <DropdownMenuItem className="text-white font-[poppins] text-[13px]">Saiba mais</DropdownMenuItem>
+                <DropdownMenuItem className="text-white  font-[poppins] text-[13px]">Contato</DropdownMenuItem>
               </DropdownMenuGroup>
             </DropdownMenuContent>
           </DropdownMenu>
