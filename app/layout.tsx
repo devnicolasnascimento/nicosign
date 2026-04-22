@@ -24,7 +24,10 @@ export default function RootLayout({
     >
       <body className="bg-[#100029]">
         <Headerr />
-        {children}
+        <main className="pt-46">
+          {children}
+        </main>
+        
       </body>
     </html>
   )
