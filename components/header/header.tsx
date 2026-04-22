@@ -54,7 +54,7 @@ export function Headerr() {
           </DropdownMenu>
         </div>
 
-        <div className="hidden md:block md:flex md:gap-5 md:pr-5">
+        <div className="hidden md:block md:gap-5 md:pr-5">
           <Link href={"/"}>
             <h1 className="text-[14px]">Início</h1>
           </Link>
