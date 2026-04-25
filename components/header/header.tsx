@@ -18,7 +18,7 @@ import Link from "next/link"
 
 export function Headerr() {
   return (
-    <header className="fixed w-full bg-white border-2 border-b-purple-600 shadow-black shadow-[0px_0px_10px_0px]">
+    <header className="fixed w-full bg-white shadow-black shadow-[0px_0px_10px_0px]">
       <nav className="flex items-center justify-between p-1.5">
         <Image src="/nico.svg" alt="Logo do site" width={70} height={50} />
         <div className="md:hidden">
