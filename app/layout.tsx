@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://nicosign.vercel.app",
     images: [
       {
-        url: "/nico.svg",
+        url: "./public/nico.svg",
         width: 100,
         height: 100,
         alt: "Nicosign",
