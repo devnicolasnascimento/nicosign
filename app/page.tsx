@@ -82,7 +82,7 @@ export default function Page() {
             animated={false}
             colors={["#c084fc", "#f472b6", "#38bdf8"]}
           >
-            <div style={{ padding: "2em" }} className="h-50 w-85 flex flex-col justify-center gap-3">
+            <div style={{ padding: "2em" }} className="min-h-50 max-w-85 flex flex-col justify-center gap-3">
               <Image src={"/starr.png"} alt="Foto de estrela" width={30} height={30}/>
               <h2 className="text-[30px] text-gray-200 font-[instrument_serif] leading-7">Serviços Criativos para Destacar Sua Marca.</h2>
               <p className="text-[12px] text-gray-200 text-justify">Soluções em design gráfico pensadas para fortalecer sua identidade visual, transmitir profissionalismo e conectar sua marca ao público certo.</p>
@@ -102,7 +102,7 @@ export default function Page() {
             animated={false}
             colors={["#c084fc", "#f472b6", "#38bdf8"]}
           >
-            <div style={{ padding: "2em" }} className="h-50 w-85 flex flex-col justify-center gap-3">
+            <div style={{ padding: "2em" }} className="min-h-50 max-w-85 flex flex-col justify-center gap-3">
               <Image src={"/rocket.png"} alt="Foto de estrela" width={30} height={30}/>
               <h2 className="text-[30px] text-gray-200 font-[instrument_serif] leading-7">Impulsionamento da sua marca.</h2>
               <p className="text-[12px] text-gray-200 text-justify">Design estratégico e criativo para valorizar sua identidade, atrair mais atenção e destacar seu negócio no mercado.</p>
