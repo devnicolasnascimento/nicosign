@@ -15,14 +15,6 @@ export const metadata: Metadata = {
     description:
       "Design criativo voltado para identidade visual, branding e soluções estratégicas que fortalecem marcas e destacam negócios no digital.",
     url: "https://nicosign.vercel.app",
-    images: [
-      {
-        url: "nico.svg",
-        width: 100,
-        height: 100,
-        alt: "Nicosign",
-      },
-    ],
   },
 }
 
